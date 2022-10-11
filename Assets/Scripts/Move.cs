@@ -19,5 +19,6 @@ public class Move : MonoBehaviour
     private void FixedUpdate()
     {
         frontTire.AddTorque((60 * speed * Time.fixedDeltaTime) * -1);
+        backTire.AddTorque((60 * speed * Time.fixedDeltaTime) * -1);
     }
 }
