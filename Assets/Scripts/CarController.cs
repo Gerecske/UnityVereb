@@ -15,6 +15,7 @@ public class CarController : MonoBehaviour
         movement = Input.GetAxis("Horizontal");
     }
 
+    // Update is called once per frame
     private void FixedUpdate()
     {
         backTire.AddTorque(-movement * speed * Time.fixedDeltaTime);
