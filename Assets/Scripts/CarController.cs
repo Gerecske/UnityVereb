@@ -21,4 +21,10 @@ public class CarController : MonoBehaviour
         backTire.AddTorque(-movement * speed * Time.fixedDeltaTime);
         frontTire.AddTorque(-movement * speed * Time.fixedDeltaTime);
     }
+
+    void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.collider.CompareTag("Flag"))
+            Debug.Log("Nyertél!!4!44");
+    }
 }

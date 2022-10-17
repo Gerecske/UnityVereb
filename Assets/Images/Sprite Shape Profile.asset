@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: Sprite Shape Profile
   m_EditorClassIdentifier: 
   m_Angles:
-  - m_Start: -96
-    m_End: 90
+  - m_Start: -95
+    m_End: 96
     m_Order: 0
     m_Sprites:
-    - {fileID: 21300000, guid: a31ab2a28014e394a9559726b618d34d, type: 3}
-  m_FillTexture: {fileID: 2800000, guid: 9770c8cb6f2515945a3edd685c321d40, type: 3}
+    - {fileID: 21300000, guid: 1d28a6f5549cfaa46aba3b998adbdc16, type: 3}
+  m_FillTexture: {fileID: 2800000, guid: a5a28f90507658f4da542c0d983e5da5, type: 3}
   m_CornerSprites:
   - m_CornerType: 0
     m_Sprites:
