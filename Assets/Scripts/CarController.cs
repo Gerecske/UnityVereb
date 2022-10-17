@@ -12,7 +12,7 @@ public class CarController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        movement = Input.GetAxis("Horizontal");
+        //movement = Input.GetAxis("Horizontal");
     }
 
     // Update is called once per frame
@@ -20,11 +20,21 @@ public class CarController : MonoBehaviour
     {
         backTire.AddTorque(-movement * speed * Time.fixedDeltaTime);
         frontTire.AddTorque(-movement * speed * Time.fixedDeltaTime);
+        Debug.Log(movement);
     }
 
     void OnCollisionEnter2D(Collision2D col)
     {
         if (col.collider.CompareTag("Flag"))
             Debug.Log("Nyertél!!4!44");
+    }
+
+    public void Gas()
+    {
+        movement = 1;
+    }
+    public void NoGas()
+    {
+        movement = 0;
     }
 }
