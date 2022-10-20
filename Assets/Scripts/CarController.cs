@@ -22,8 +22,8 @@ public class CarController : MonoBehaviour
     void Update()
     {
         //movement = Input.GetAxis("Horizontal");
-        bT.position = new Vector3(bx, 0, 0);
-        fT.position = new Vector3(fx, 0, 0);
+        //bT.position = new Vector3(bx, 0, 0);
+        //fT.position = new Vector3(fx, 0, 0);
     }
 
     // Update is called once per frame
@@ -37,7 +37,7 @@ public class CarController : MonoBehaviour
     void OnCollisionEnter2D(Collision2D col)
     {
         if (col.collider.CompareTag("Flag"))
-            Debug.Log("Nyertél!!4!44");
+            Debug.Log("Nyertï¿½l!!4!44");
     }
 
     public void Gas()
