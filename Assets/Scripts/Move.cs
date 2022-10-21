@@ -9,7 +9,7 @@ public class Move : MonoBehaviour
     public float speed = 20;
     private float movement;
 
-    // ForgatÛnyomatÈk alkalm·z·sa a kocsi kerekeire, hogy haladjon
+    // Forgat√≥nyomat√©k alkalmaz√°sa a kocsi kerekeire, hogy haladjon
     private void FixedUpdate()
     {
         backTire.AddTorque(-movement * speed * Time.fixedDeltaTime);
@@ -17,12 +17,12 @@ public class Move : MonoBehaviour
         this.GetComponent<Rigidbody2D>().AddTorque(-movement * (speed*0.5f) * Time.fixedDeltaTime);
     }
 
-    // Be·llÌtj·k, hogy merre haladjon az autÛ - a kÈpernyı gombjairÛl vannak meghÌvva
-    public void Gass()
+    // Beell√°tjuk, hogy merre haladjon az aut√≥ - a f√ºggv√©nyek a k√©perny≈ë gombjair√≥l vannak megh√≠vva
+    public void Gas()
     {
         movement = 0.5f;
     }
-    public void NoGass()
+    public void NoGas()
     {
         movement = 0;
     }
