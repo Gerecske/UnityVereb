@@ -8,6 +8,8 @@ public class Zombie : MonoBehaviour
 {
     public Animator animator;
     public int lifes = 3;
+
+    // Egy zombinak 3 élete van. Ha eltalálja egy lövedék, elveszít egyet. Ha kifogy az életekből, "meghal"
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.name == "Bullet(Clone)")

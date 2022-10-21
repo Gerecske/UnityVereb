@@ -7,7 +7,8 @@ public class Shoot : MonoBehaviour
     public GameObject ShootPrefab;
     private Rigidbody2D rb;
 
-    public void ShootB()
+    // Lövedék kilövése a gomb megnyomásakor
+    public void ShootBullet()
     {
         rb = Instantiate(ShootPrefab, transform.position, transform.rotation).GetComponent<Rigidbody2D>();
     }
