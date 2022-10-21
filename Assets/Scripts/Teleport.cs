@@ -44,7 +44,7 @@ public class Teleport : MonoBehaviour
             car.transform.position = spawn1.position;
             time3 = currentTime;
             currentTime = 0f;
-            textMTimes.text = "1: " + time1.ToString() + "\n2: " + time2.ToString() + "\n3: " + time3.ToString();
+            textMTimes.text = "Score\n" + "1: " + time1.ToString() + "\n2: " + time2.ToString() + "\n3: " + time3.ToString();
         }
     }
 }
