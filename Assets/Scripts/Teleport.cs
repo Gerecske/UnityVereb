@@ -19,13 +19,14 @@ public class Teleport : MonoBehaviour
     public TextMeshProUGUI textMTimes;
     int level = 1;
 
+    // Az eltelt idõ frissítése, és kiírása a képernyõre
     void Update()
     {
         currentTime += 1 * Time.deltaTime;
         textM.text = currentTime.ToString("0.0");
     }
 
-    // Start is called before the first frame update
+    // Zászlók érintésénél továbblépés a következõ pályára
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.name == "flag1")
@@ -54,6 +55,7 @@ public class Teleport : MonoBehaviour
         }
     }
 
+    // A játékosnak lehetõsége van újrakezdeni a pályát, ha elrontotta, viszont az idõ büntetésképp nem nullázódik
     public void Restart()
     {
         if (level == 1)
