@@ -981,7 +981,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Gass
+  m_text: Gas
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
@@ -1008,8 +1008,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 50.37
+  m_fontSizeBase: 50.37
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
@@ -1044,7 +1044,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 0, w: 286.99988}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1093,8 +1093,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 39.476, y: -23.2211}
-  m_SizeDelta: {x: -78.9519, y: -46.4423}
+  m_AnchoredPosition: {x: 107.1024, y: -59.5084}
+  m_SizeDelta: {x: -214.2047, y: -119.017}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &306864292
 MonoBehaviour:
@@ -1143,8 +1143,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 50.37
+  m_fontSizeBase: 50.37
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1331,8 +1331,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -314, y: -99.963}
-  m_SizeDelta: {x: 173.9327, y: 119.2631}
+  m_AnchoredPosition: {x: -659.84, y: -352}
+  m_SizeDelta: {x: 556.46, y: 343.5849}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &439650681
 MonoBehaviour:
@@ -1909,7 +1909,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 519420031}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -2014,8 +2014,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -314, y: 99.741}
-  m_SizeDelta: {x: 135.2292, y: 134.5175}
+  m_AnchoredPosition: {x: -769.8451, y: 380.3722}
+  m_SizeDelta: {x: 336.459, y: 319.253}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &637001863
 MonoBehaviour:
@@ -2568,8 +2568,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 50.37
+  m_fontSizeBase: 50.37
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
@@ -2604,7 +2604,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 56.891785}
+  m_margin: {x: 0, y: 0, z: 0, w: 126.1676}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -3892,10 +3892,10 @@ RectTransform:
   m_Father: {fileID: 567517865}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -179.4423, y: 70.295}
-  m_SizeDelta: {x: 71.8337, y: 193.41}
+  m_AnchorMin: {x: 0.1325625, y: 0.38351852}
+  m_AnchorMax: {x: 0.5, y: 0.38351852}
+  m_AnchoredPosition: {x: -130.94, y: 361.2624}
+  m_SizeDelta: {x: -540.05, y: 609.0649}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1416818092
 MonoBehaviour:
@@ -4949,8 +4949,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 321.09, y: 134.15}
-  m_SizeDelta: {x: 175.8242, y: 65.693}
+  m_AnchoredPosition: {x: 758.38513, y: 460.31036}
+  m_SizeDelta: {x: 377.0539, y: 125.0723}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2055331003
 MonoBehaviour:
@@ -4999,10 +4999,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 58.8
-  m_fontSizeBase: 41
+  m_fontSize: 100
+  m_fontSizeBase: 100
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
@@ -5035,7 +5035,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 36.28723, y: 0, z: 6.5977783, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
