@@ -47,4 +47,9 @@ public class Teleport : MonoBehaviour
             textMTimes.text = "Score\n" + "1: " + time1.ToString() + "\n2: " + time2.ToString() + "\n3: " + time3.ToString();
         }
     }
+
+    public void Restart()
+    {
+
+    }
 }
