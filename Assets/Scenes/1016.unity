@@ -1738,7 +1738,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9b47852b7ca2704ab09e79c04058cf4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentTime: 0
 --- !u!1 &552850102
 GameObject:
   m_ObjectHideFlags: 0
@@ -2392,7 +2391,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backTire: {fileID: 99776373}
   frontTire: {fileID: 1608721095}
-  speed: 100
+  speed: 150
 --- !u!1001 &932601641
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4187,7 +4186,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
