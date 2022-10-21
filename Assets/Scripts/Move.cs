@@ -16,7 +16,7 @@ public class Move : MonoBehaviour
     }
     private void Update()
     {
-        movement = Input.GetAxis("Horizontal");
+        //movement = Input.GetAxis("Horizontal");
     }
 
     // Update is called once per frame
@@ -25,5 +25,15 @@ public class Move : MonoBehaviour
         backTire.AddTorque(-movement * speed * Time.fixedDeltaTime);
         frontTire.AddTorque(-movement * speed * Time.fixedDeltaTime);
         this.GetComponent<Rigidbody2D>().AddTorque(-movement * (speed*0.5f) * Time.fixedDeltaTime);
+        Debug.Log(movement);
+    }
+    public void Gass()
+    {
+        movement = 0.5f;
+        Debug.Log("Lenyomva");
+    }
+    public void NoGass()
+    {
+        movement = 0;
     }
 }
