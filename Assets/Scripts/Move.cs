@@ -24,5 +24,6 @@ public class Move : MonoBehaviour
     {
         backTire.AddTorque(-movement * speed * Time.fixedDeltaTime);
         frontTire.AddTorque(-movement * speed * Time.fixedDeltaTime);
+        this.GetComponent<Rigidbody2D>().AddTorque(-movement * (speed*0.5f) * Time.fixedDeltaTime);
     }
 }
