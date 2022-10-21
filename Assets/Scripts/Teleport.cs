@@ -17,8 +17,6 @@ public class Teleport : MonoBehaviour
     float time3 = 0f;
     public TextMeshProUGUI textM;
     public TextMeshProUGUI textMTimes;
-    public Rigidbody2D backTire;
-    public Rigidbody2D frontTire;
     int level = 1;
 
     void Update()

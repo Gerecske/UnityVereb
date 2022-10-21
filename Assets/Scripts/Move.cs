@@ -9,19 +9,30 @@ public class Move : MonoBehaviour
     public float speed = 20;
     private float movement;
 
-    // Forgatónyomaték alkalmázása a kocsi kerekeire, hogy haladjon
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+    private void Update()
+    {
+        //movement = Input.GetAxis("Horizontal");
+    }
+
+    // Update is called once per frame
     private void FixedUpdate()
     {
         backTire.AddTorque(-movement * speed * Time.fixedDeltaTime);
         frontTire.AddTorque(-movement * speed * Time.fixedDeltaTime);
-        this.GetComponent<Rigidbody2D>().AddTorque(-movement * (speed * 0.5f) * Time.fixedDeltaTime);
+        this.GetComponent<Rigidbody2D>().AddTorque(-movement * (speed*0.5f) * Time.fixedDeltaTime);
+        Debug.Log(movement);
     }
-
-    public void Gas()
+    public void Gass()
     {
         movement = 0.5f;
+        Debug.Log("Lenyomva");
     }
-    public void NoGas()
+    public void NoGass()
     {
         movement = 0;
     }
