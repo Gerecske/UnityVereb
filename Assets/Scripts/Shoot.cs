@@ -6,15 +6,10 @@ public class Shoot : MonoBehaviour
 {
     public GameObject ShootPrefab;
     private Rigidbody2D rb;
-    // Start is called before the first frame update
 
-    // Update is called once per frame
-    void Update()
+    public void ShootB()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            rb = Instantiate(ShootPrefab,transform.position,transform.rotation).GetComponent<Rigidbody2D>();
-        }
+        rb = Instantiate(ShootPrefab, transform.position, transform.rotation).GetComponent<Rigidbody2D>();
     }
 
 }

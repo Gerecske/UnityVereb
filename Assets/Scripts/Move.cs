@@ -36,4 +36,8 @@ public class Move : MonoBehaviour
     {
         movement = 0;
     }
+    public void Brake()
+    {
+        movement = 0.5f;
+    }
 }
