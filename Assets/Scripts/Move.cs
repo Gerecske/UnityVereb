@@ -38,6 +38,6 @@ public class Move : MonoBehaviour
     }
     public void Brake()
     {
-        movement = 0.5f;
+        movement = -0.5f;
     }
 }
