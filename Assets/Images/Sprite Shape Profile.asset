@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Sprite Shape Profile
   m_EditorClassIdentifier: 
   m_Angles:
-  - m_Start: -95
-    m_End: 96
+  - m_Start: -87
+    m_End: 38
     m_Order: 0
     m_Sprites:
     - {fileID: 21300000, guid: 1d28a6f5549cfaa46aba3b998adbdc16, type: 3}
